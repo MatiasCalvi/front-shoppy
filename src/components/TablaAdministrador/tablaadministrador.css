@@ -1,0 +1,32 @@
+.containerFiltrosAdmin {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerFiltrosAdmin  {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .ingresarFotoTexto{
+    width: 100%;
+  }
+
+.ContainerAdminPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerPreciosAdmin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

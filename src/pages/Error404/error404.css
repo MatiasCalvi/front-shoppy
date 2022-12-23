@@ -1,0 +1,122 @@
+ 
+  .mainError {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://pixy.org/download/895/");
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: color;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .capa {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: absolute;
+  }
+  
+  .divError {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .divError h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.8rem;
+    font-weight: 800;
+  }
+  
+  .parrafoError {
+    color: #f3f3f3;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .buttonError {
+    color: #f3f3f3;
+    background-color: #ef837b;
+    padding: 2px 25px;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+  
+  .buttonError:hover {
+    transform: scale(1.01);
+    transition: 500ms;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 576px) {
+    .divError h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .parrafoError {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .divError h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .parrafoError {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .divError h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .parrafoError {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .divError h2 {
+      color: #f3f3f3;
+      font-size: 3rem;
+      letter-spacing: 0.8rem;
+      font-weight: 800;
+    }
+  
+    .parrafoError {
+      color: #f3f3f3;
+      font-size: 1.2rem;
+      width: 950px;
+      font-weight: 300;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+  }
+  

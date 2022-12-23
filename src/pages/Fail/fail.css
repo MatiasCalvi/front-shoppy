@@ -1,0 +1,129 @@
+.edFotoFail {
+    min-height: 100vh;
+    width: 50%;
+    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/26153318/tarjeta-de-credito.jpg");
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: color;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .shoppyLogoRegistro {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 120px;
+  }
+  
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 1.3rem !important;
+  }
+  
+  .edVolverAInicioRegistro {
+    width: 50px;
+    height: 50px;
+    background-color: #ef837b;
+    border-radius: 360px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .edVolverAInicioRegistro p {
+    color: white;
+    margin: 0;
+    font-size: 10px;
+  }
+  
+  .botonAceptarVolver{
+    background-color: #ef837b;
+    color: white;
+    padding: 3px 20px;
+  }
+  
+  .edFormFail {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-content: center;
+  }
+  
+  .edFormFail h4 {
+    font-weight: 300;
+  }
+  
+  .edFormFail h2 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .edFormFail form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edFormFail form label {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0px;
+    width: 500px;
+  }
+  
+  @media (max-width: 1030px) {
+    .edFotoFail {
+      display: none;
+    }
+  
+    .edFormFail h4 {
+      color: #f3f3f3;
+  }
+  
+    .edFormFail {
+      background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/26153318/tarjeta-de-credito.jpg");
+      background-color: rgba(0, 0, 0, 0.596);
+      background-blend-mode: color;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+      display: flex;
+      flex-grow: 1;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      height: 100vh;
+    }
+  
+    .edFormFail label {
+      color: #f3f3f3;
+    }
+  
+    .botonesForm p {
+      color: #f3f3f3;
+    }
+  
+    .edFormFail h2 {
+      color: #f3f3f3;
+    }
+  
+    .edFormFail form label {
+      width: 340px;
+    }
+  }
+  

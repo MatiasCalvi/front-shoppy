@@ -1,0 +1,179 @@
+.mainInicio {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/830354293822324736/1052018755485573231/GettyImages-1097651244.webp");
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.festejaLasFiestas {
+  min-height: 40vh;
+  width: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/070/454/original/christmas-sale-typography-horizontal-discount-banner-design-template-illustration-wallpaper-flyers-invitation-posters-brochure-banners-calendar-vector.jpg");
+  background-color: rgba(0, 0, 0, 0.797);
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.festejaLasFiestas p {
+  width: 80vh;
+  color: #f3f3f3;
+}
+
+.festejaLasFiestas h3 {
+  width: 80vh;
+  color: #ef837b;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+
+.divInicio {
+  width: 800px;
+}
+
+.decoradoblanco {
+  color: white;
+}
+
+.divInicio h2 {
+  color: #f3f3f3;
+  font-size: 3.2rem;
+  text-align: center;
+  letter-spacing: 9px;
+  font-weight: 700;
+}
+
+.parrafoInicio {
+  color: #f3f3f3;
+  font-weight: 300;
+}
+
+.buttonInicio {
+  color: #f3f3f3;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.productosMain {
+  min-height: 100vh;
+}
+
+.headerInicio {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 12%;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+}
+
+.headerInicio h2 {
+  margin: 20px 0px;
+  color: #333333;
+}
+
+.selectsInicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.selectsInicio p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.containerCardsInicio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+  gap: 30px;
+}
+
+.marketing {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Registrate {
+  min-height: 40vh;
+  width: 100%;
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/6BIHGWNF2FC5ZCWBSNTFFSY2TY.jpg");
+  background-color: rgba(0, 0, 0, 0.739);
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.Registrate p {
+  width: 80vh;
+  color: #f3f3f3;
+}
+
+.Registrate h3 {
+  width: 80vh;
+  color: #ef837b;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+
+.CarrouselMarcas img {
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.CarrouselMarcas {
+  margin: 0px 0px;
+}
+
+.articulosMarketing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.articulosMarketing i {
+  width: 50px;
+  height: 50px;
+}
+
+.articulosMarketing p {
+  width: 250px;
+  text-align: center;
+}
+
+.buttonInicioRegistrate {
+  text-decoration: none;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+.buttonInicioRegistrate:hover {
+  color: #ef837b;
+}
+
+/*/ carrousel /*/

@@ -1,0 +1,219 @@
+.HeaderProductosDetalleEd {
+  min-height: 30vh;
+  width: 100%;
+  background-image: url("https://c1.wallpaperflare.com/path/511/756/14/keyboard-gamer-computer-technology-76889eb7190ee582ad62880324b733ce.jpg");
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainProductosDetalleEd {
+  min-height: 70vh;
+  position: relative;
+}
+
+.MainProductosDetalleEd h2 {
+  text-align: center;
+  padding-top: 45px;
+}
+
+.contadorParaCarrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contadorParaCarrito p {
+  margin: 0;
+  font-size: 1.5rem;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+#agregarAlCarrito {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#agregarAlCarritoo {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #ef837b;
+  padding: 10px 0px;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#agregarAlCarritoo:hover {
+  background-color: #d4716a;
+  color: #f3f3f3;
+}
+
+#CantidadCarrito {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.HeaderProductosDetalleEd h2 {
+  color: #f3f3f3;
+}
+
+.volverAProductos {
+  background-color: rgba(0, 0, 0, 0.089);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 360px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.volverAProductos:hover {
+  background-color: rgba(0, 0, 0, 0.183);
+  width: 40px;
+
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 360px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.cardDetalleDeProductoEd {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px;
+}
+
+.BotonIrAlCarrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+}
+
+.BotonIrAlCarrito:hover {
+  color: #ef837b;
+}
+
+.fotoDetalleDeProductoEd {
+  width: 30%;
+}
+
+.fotoDetalleDeProductoEd img {
+  width: 100%;
+}
+
+.InfoDetalleDeProductoEd {
+  width: 50%;
+}
+
+.PrecioStockDetalles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.IconosDetallesEd {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.precio{
+  font-weight: 600;
+  color: #333333;
+}
+
+.PrecioStockDetalles p {
+  margin: 0px;
+}
+
+.hrDetallesProductos {
+  width: 100%;
+}
+
+.ProductoTitulo {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.IconosyParrafosAdicionales {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px 15px;
+  flex-direction: column;
+}
+.mc-containerPreguntaDetalles{
+  padding: 35px 90px;
+}
+.mc-tituloConsultasCartelDetalles{
+  font-weight: 600!important;
+  font-size: 25px!important;
+  display: flex;
+  margin-left: 10px
+}
+.mc-inputPreguntaDetallesProducto{
+  width: 100% !important;
+  margin-top: 30px!important;
+}
+.mc-containerCardDetallesProduct{
+  padding: 16px!important;
+}
+.mc-containerButtonDetalles{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.mc-buttonSubmitDetalles{
+  width: 6%;
+  background-color:  #ef837b !important;
+}
+@media (max-width: 992px) {
+  .cardDetalleDeProductoEd {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .fotoDetalleDeProductoEd {
+    width: 60%;
+  }
+
+  .IconosyParrafosAdicionales {
+    flex-direction: column;
+  }
+
+  .InfoDetalleDeProductoEd {
+    width: 95%;
+  }
+  .mc-containerPreguntaDetalles{
+    padding:35px
+  }
+}

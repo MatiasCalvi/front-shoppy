@@ -1,0 +1,216 @@
+.mc-containerPerfil{
+    padding: 0 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 80vh;
+}
+.mainPerfil{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://c0.wallpaperflare.com/path/753/14/394/macbook-pro-magic-mouse-and-monitor-on-desk-479772b44f464221a558d039f51aacab.jpg");
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mc-cardPerfil{
+    height: 25%;
+    min-width: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.mc-iconoAvatar{
+    width: 70px!important;
+    height: 70px!important;
+    
+}
+
+.mc-titulosPerfilMisDatos{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.mc-titulosDatosPersonales{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.mc-inputsPerfil{
+    margin-bottom: 30px!important;
+    display: flex;
+    gap: 10px;
+}
+.mc-inputsPerfilAcordion{
+    width: 95%;
+}
+.mc-buttonAcordion,.mc-buttonAcordionContra{
+    width: 5%;
+    background-color: #FF5733!important;
+}
+.mc-containerButtonContra{
+    display: flex;
+    align-items: center;
+}
+.mc-buttonAcordionContra{
+    height: 45%;
+}
+.mc-iconButtonPerfil{
+    width: 55%!important;
+}
+.mc-iconButtonPerfilContra{
+    width: 65%!important;
+}
+.mc-inputsPerfilContra{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 30px;
+}
+.mc-inputsPerfilContraSub{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    gap:30px
+}
+.mc-containerMisDatos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.mc-containerDatosPersonales{
+    display: flex;
+    flex-direction: column;
+}
+.mc-tituloCartelFactura{
+    font-weight: 600!important;
+    letter-spacing: 0;
+    font-size: 18px!important;
+}
+.mc-spanFactura{
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 18px!important;
+}
+.mc-containerFacturas{
+    margin-top: 30px;
+}
+.mc-containerSubCardFacturas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mc-containerFacturasYPreguntas{
+    margin-top: 70px;
+}
+.mc-cardPerfilFacturas{
+    margin-bottom: 30px;
+}
+.mc-containerPregYCoins{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+.mc-titulosFacturas{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mc-tituloCartelCoins{
+    font-size: 18px!important;
+}
+.mc-subContainerFactura{
+    display: flex;
+    flex-direction: column;
+}
+.mc-buttonCoins{
+    background-color: #ef837b !important;
+    margin-top: 20px!important;
+}
+.mc-subContainerCoins{
+    display: flex;
+    flex-direction: column;
+}
+.mc-titulosCoins{
+    font-size: 18px!important;
+    margin-bottom: 10px!important;
+}
+.mc-containerCardCoinsYPreguntas{
+    display: flex;
+    align-items: center;
+    padding-left: 35px!important;
+}
+.mc-renderInput,.mc-renderInput2{
+    height: 112px;
+    /* border: .5px solid rgba(165, 165, 165, 0.825); */
+    border: .5px solid #ef837b;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+.mc-renderInput2{
+    height: 280px;
+}
+.mc-renderLetra{
+    font-weight: 600;
+}
+.mc-titulosCardsPerfil{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px; 
+}
+@media screen and (max-width: 1005px) {
+
+    .mc-containerPerfil{
+        padding: 15px;
+    }
+    .mc-containerSubCardFacturas{
+        justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width: 890px) {
+
+    .mc-containerPerfil{
+        padding: 15px;
+    }
+    .mc-inputsPerfilContra{
+        flex-direction: column;
+    }
+    .mc-containerSubCardFacturas{
+        justify-content: space-between;
+    }
+    .mc-renderInput{
+        height: 250px;
+    }
+    .mc-renderInput2{
+        height: 400px;
+    }
+    .mc-containerButtonContra{
+        margin-top: 30px;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    .mc-buttonAcordionContra{
+        width: 30%;
+        height: 100%;
+    }
+    .mc-iconButtonPerfilContra{
+        width: 45%!important;
+    }
+    .mc-inputsPerfilContraSub{
+        width: 100%;
+    }
+  }
+  

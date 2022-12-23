@@ -1,0 +1,74 @@
+.mainConsultas {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://c0.wallpaperflare.com/path/295/199/823/black-corded-gaming-headset-beside-black-flat-screen-computer-monitor-turned-on-9eeecb20532cf7d66224d978d27df220.jpg");
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mc-containerConsultas {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0 20%;
+}
+
+#consultasFrecuentes {
+  color: #f3f3f3;
+  font-size: 2.9rem;
+  text-align: center;
+  letter-spacing: 9px;
+  font-weight: 700;
+}
+
+.mc-subtitulosAcordionConsultas {
+  margin-bottom: 10px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color:  #ef837b;
+}
+.mc-titulosAcordionConsultas {
+  font-size: 19px !important;
+  font-weight: 500 !important;
+}
+.mc-descripcionAcordionConsultas {
+  font-size: 16px !important;
+}
+.mc-containerPregunta {
+  padding: 0 20%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+.mc-inputPregunta {
+  width: 100% !important;
+}
+.mc-tituloConsultasCartel {
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 20px !important;
+}
+
+.mc-TituloConsultas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.mc-containerButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.mc-buttonSubmit{
+    width: 12%;
+    background-color:  #ef837b !important;
+}

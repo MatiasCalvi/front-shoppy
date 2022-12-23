@@ -1,0 +1,34 @@
+.css-zcbmsk-MuiButtonBase-root-MuiButton-root {
+  background-color: #ef837b !important;
+}
+
+.css-9elgqx-MuiTableCell-root {
+  max-width: 50px !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: rgb(33, 33, 33) !important;
+}
+
+.mainAdmin {
+  min-height: 40vh;
+  width: 100%;
+  background-image: url("https://www.agmabogados.com/wp-content/uploads/2020/04/La-responsabilidad-del-Administrador-en-los-tiempos-del-Covid-19.-Hay-que-anticiparse-y-planificar..png");
+  background-color: rgba(0, 0, 0, 0.596);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TablaAdmin {
+  padding: 50px;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}

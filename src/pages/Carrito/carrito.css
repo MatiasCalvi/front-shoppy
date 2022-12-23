@@ -1,0 +1,130 @@
+.mainCarrito {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://c1.wallpaperflare.com/path/719/495/578/computer-screen-mouse-keyboard-4a9ffb6e6ab85cc4e1743ebd0d3ce1e1.jpg");
+  background-color: rgba(0, 0, 0, 0.756);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edContainerCarrito {
+  padding: 15px;
+  min-height: 65vh;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.monedasEdCarrito{
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.divMonedasCarrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.divMonedasCarrito p {
+  margin: 0;
+}
+
+.edContainerCarrito hr {
+  width: 90%;
+}
+
+.botonFinalizarCompraEd {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #ef837b;
+  padding: 10px 0px;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botonFinalizarCompraEd:hover {
+  background-color: #dc756e;
+}
+
+.precioTotalCostadoEd {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.sinarticulosencarro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordionCarrito {
+  width: 100%;
+}
+
+.FinalizarCompraDivEd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ed-InputCodigoPromocional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.ed-InputCodigoPromocional p {
+  margin: 0;
+}
+
+.botonIrAproductos {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #ef837b;
+  padding: 10px 55px;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.botonIrAproductos:hover {
+  background-color: #d4716a;
+
+  color: #f3f3f3;
+}
+
+.contentDescription {
+  overflow: visible;
+}
+
+.edContainerCarrito h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.edContainerCardsCarrito {
+  width: 980px;
+  padding: 25px 0px;
+}
