@@ -110,9 +110,9 @@ export default function Carrito() {
       let data = {};
       data.aprove = aprove;
       let edit = dispatch(editUser({ token, data }));
-      /* if (res.payload.success) {
+     if (res.payload.success) {
         window.location.assign(res.payload.response.init_point);
-      }  */
+      }  
     } catch (error) {
       console.log(error.response);
     }
