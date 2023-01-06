@@ -96,8 +96,8 @@ export default function Carrito() {
   console.log(items);
   let preference = {
     back_urls: {
-      failure: "http://localhost:3000/fail",
-      success: "http://localhost:3000/success",
+      failure: "https://front-shoppy.vercel.app/fail",
+      success: "https://front-shoppy.vercel.app/success",
     },
   };
   preference.items = items;
