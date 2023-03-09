@@ -54,7 +54,7 @@ export default function PerfilUser() {
   const { logged, nombre, apellido, date, dni, email, direccion, nick, token,cp,phone,nombreDni } =
     useSelector((state) => state.userReducer);
 
-  let { editUser } = userActions;
+  let{getOneUser,editUser}= userActions
 
   const [showPassword, setShowPassword] = React.useState(false);
   const [showPassword2, setShowPassword2] = React.useState(false);
