@@ -72,3 +72,11 @@
     width: 12%;
     background-color:  #ef837b !important;
 }
+@media screen and (max-width: 500px){
+  #consultasFrecuentes{
+    font-size: 2rem!important;
+  }
+  .parrafoInicio{
+    font-size:.9rem;
+  }
+}

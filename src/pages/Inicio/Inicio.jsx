@@ -52,7 +52,7 @@ export default function Inicio() {
     <>
       <div className="mainInicio">
         <div className="divInicio">
-          <h2>
+          <h2 className="mc-titulo-inicio">
             SHOPPY COMPUTACION<span className="blanco">.</span>
           </h2>
           <p className="parrafoInicio">

@@ -176,6 +176,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 520px){
+  .divInicio h2{
+    font-size: 2rem;
+  }
+}
 
 /* ----------------------------------------------------------------------------------------- */
 @keyframes scroll {
