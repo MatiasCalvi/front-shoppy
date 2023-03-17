@@ -30,10 +30,12 @@
 .festejaLasFiestas p {
   width: 80vh;
   color: #f3f3f3;
+  max-width:100%;
 }
 
 .festejaLasFiestas h3 {
   width: 80vh;
+  max-width:100%;
   color: #ef837b;
   text-transform: uppercase;
   font-size: 2.8rem;
@@ -138,7 +140,7 @@
   padding:8px
 }
 
-.Registrate h3 {
+.Registrate h3{
   max-width:100%;
   color: #ef837b;
   text-transform: uppercase;
@@ -193,11 +195,11 @@
     display: flex;
     justify-content: center;
   }
-  .Registrate h3{
+  .Registrate h3,.festejaLasFiestas h3{
     font-size: 2rem!important;
     text-align: center;
   }
-  .Registrate p{
+  .Registrate p,.festejaLasFiestas p{
     text-align: center;
   }
 }
@@ -209,10 +211,10 @@
   .parrafoInicio{
     font-size:.9rem;
   }
-  .Registrate h3{
+  .Registrate h3,.festejaLasFiestas h3{
     font-size: 2rem!important;
   }
-  .Registrate p{
+  .Registrate p,.festejaLasFiestas p{
     font-size:.9rem;
   }
 }

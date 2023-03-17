@@ -7,7 +7,7 @@ export default function Error404() {
   return (
     <>
       <div className="mainError">
-        <div className="divError">
+        
           <h2>
             PAGINA NO ENCONTRADA<span className="blanco">.</span>
           </h2>
@@ -19,7 +19,7 @@ export default function Error404() {
           <NavLink to={`/`} style={{ textDecoration: "none" }}>
             <GoTo texto="VOLVER"></GoTo>
           </NavLink>
-        </div>
+        
       </div>
     </>
   );

@@ -1,6 +1,7 @@
 import { createAsyncThunk,createAction} from "@reduxjs/toolkit";
 import axios from "axios";
-import API from "../../config/api";
+/* import API from "../../config/api"; */
+const API = process.env.API;
 
 const mercadoPago = createAsyncThunk("mercadoPago", async (preference) => {
     

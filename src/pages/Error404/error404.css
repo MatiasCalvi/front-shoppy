@@ -9,7 +9,9 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 30px;
     align-items: center;
     overflow: hidden;
   }
@@ -27,20 +29,13 @@
     position: absolute;
   }
   
-  .divError {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .divError h2 {
+  .mainError h2 {
     color: #f3f3f3;
     font-size: 2rem;
     text-align: center;
     letter-spacing: 0.8rem;
     font-weight: 800;
+    max-width: 100%;
   }
   
   .parrafoError {
@@ -48,6 +43,8 @@
     font-size: 1rem;
     text-align: center;
     font-weight: 300;
+    max-width: 100%;
+    padding: 7px;
   }
   
   .buttonError {
@@ -66,8 +63,8 @@
   }
   
   @media (min-width: 576px) {
-    .divError h2 {
-      font-size: 2rem;
+    .mainError h2 {
+      font-size: 1.8rem;
       text-align: center;
     }
   
@@ -78,7 +75,7 @@
   }
   
   @media (min-width: 768px) {
-    .divError h2 {
+    .mainError h2 {
       font-size: 2rem;
       text-align: center;
     }
@@ -90,7 +87,7 @@
   }
   
   @media (min-width: 992px) {
-    .divError h2 {
+    .mainError h2 {
       font-size: 3rem;
       text-align: center;
     }
@@ -102,7 +99,7 @@
   }
   
   @media (min-width: 1200px) {
-    .divError h2 {
+    .mainError h2 {
       color: #f3f3f3;
       font-size: 3rem;
       letter-spacing: 0.8rem;

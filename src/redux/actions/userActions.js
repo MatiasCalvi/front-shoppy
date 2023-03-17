@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import API from "../../config/api";
+const API = process.env.API;
 
 const ingress = createAsyncThunk("ingress", async (datos) => {
   try {

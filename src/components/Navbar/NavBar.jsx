@@ -48,13 +48,13 @@ export default function NavBar() {
             {mostrarMenu ? (
               <ul className="navbar-nav d-md-flex flex-md-row justify-content-md-center align-items-center">
                 <li className="nav-item mx-md-3 mx-lg-1">
-                  <a className="nav-link">Productos</a>
+                  <a className="nav-link" href="./productos">Productos</a>
                 </li>
                 <li className="nav-item mx-md-3 mx-lg-1">
-                  <a className="nav-link">Inicio</a>
+                  <a className="nav-link" href="./inicio">Inicio</a>
                 </li>
                 <li className="nav-item mx-md-3 mx-lg-1">
-                  <a className="nav-link">Consultas</a>
+                  <a className="nav-link" href="./consultas">Consultas</a>
                 </li>
               </ul>
             ) : null}
