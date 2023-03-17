@@ -12,7 +12,7 @@ import TextField from "@mui/material/TextField";
 import { useDispatch, useSelector } from "react-redux";
 import productsActions from "../../redux/actions/productsActions";
 
-import { Paginator } from 'primereact/paginator';
+
 
 const { productos, productosFiltrados } = productsActions;
 
@@ -90,27 +90,6 @@ export default function Productos() {
     peticionProductosFiltrados();
   }, [peticion]);
 
- /*  function PaginatorF(items, page, per_page) {
-
-    var page = page || 1,
-    per_page = per_page || 10,
-    offset = (page - 1) * per_page,
-  
-    paginatedItems = items.slice(offset).slice(0, per_page),
-    total_pages = Math.ceil(items.length / per_page);
-    return {
-    page: page,
-    per_page: per_page,
-    pre_page: page - 1 ? page - 1 : null,
-    next_page: (total_pages > page) ? page + 1 : null,
-    total: items.length,
-    total_pages: total_pages,
-    data: paginatedItems,
-    offset:offset
-    };
-  }
-  let array1=PaginatorF(productosFiltradosArray)
-  console.log(array1) */
 
 
   return (
@@ -140,8 +119,7 @@ export default function Productos() {
             label="Nombre"
             variant="outlined"
           />
-          {/* <div>{`value: ${value !== null ? `'${value}'` : 'null'}`}</div>
-              <div>{`inputValue: '${inputValue}'`}</div> */}
+          
           <br />
           <Autocomplete
             style={{ width: "100%" }}
@@ -158,13 +136,7 @@ export default function Productos() {
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Tipo" />}
           />
-          {/* <h3 className='titulos-input'>Marca</h3>
-            <select name="" id="" className='mc-inputs'></select>
-            <h3 className='titulos-input'>Color</h3>
-            <select name="" id="" className='mc-inputs'></select>
-            <h3 className='titulos-input'>Precio</h3> */}
-          {/* <div>{`value: ${value !== null ? `'${value}'` : 'null'}`}</div>
-              <div>{`inputValue: '${inputValue}'`}</div> */}
+         
           <br />
           <Autocomplete
             value={value2}
@@ -223,11 +195,7 @@ export default function Productos() {
                 <h4>No se encontraron productos con su busqueda</h4>
               )}
             </div>
-            {/* <div className="paginator-demo">
-              
-                <Paginator first={basicFirst} rows={basicRows} totalRecords={120} onPageChange={onBasicPageChange}></Paginator>
-              
-            </div> */}
+            
           </div>
         </div>
       </div>
