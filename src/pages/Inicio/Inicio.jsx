@@ -8,8 +8,10 @@ import "../Inicio/inicio.css";
 import productsActions from "../../redux/actions/productsActions";
 import { NavLink } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+const API = process.env.API;
 
 export default function Inicio() {
+  console.log(API)
   let { rol, nombre, carrito, favoritos, apellido, logged, token } =
     useSelector((store) => store.userReducer);
   const { amd, adata, rogstrix, tForce, zotac } = imagenes;
